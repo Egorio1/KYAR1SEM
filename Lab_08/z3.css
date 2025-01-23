@@ -1,0 +1,46 @@
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.menu
+{
+    border: 2px solid black;
+    width: 200px;
+    height: 30px;
+    background-color: yellow;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.second
+{
+    border: 2px dashed black;
+    background-color: blanchedalmond;
+    height: 50px;
+    width: 150px;
+    padding-top: 15px;
+    text-align: center;
+}
+nav ul 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.first
+{
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+nav li:hover .first
+{
+    display: block;
+    left: 10px;
+}
+.second:hover
+{
+    background-color: burlywood;
+}

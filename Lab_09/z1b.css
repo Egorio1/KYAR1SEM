@@ -1,0 +1,42 @@
+.container
+{
+    display: grid;
+    grid-template-columns: 900px 900px 90px;
+    grid-gap: 10px;
+    height: 900px;
+}
+.container div{
+    border: 2px black solid;
+    padding: 5px;
+    padding-top: 10px;
+    
+}
+.cont4
+{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-align: center;
+    font-size: 40px;
+    
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+.cont1
+{
+    text-align: center;
+    font-size: 40px;
+    
+    grid-row: 1/3;
+}
+.cont2
+{
+    text-align: center;
+    font-size: 30px;
+    font-size: 40px;
+}
+.cont3
+{
+    text-align: center;
+    font-size: 30px;
+    font-size: 40px;
+}

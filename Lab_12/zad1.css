@@ -1,0 +1,27 @@
+items {
+    display: block;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+title, byn {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    background: cyan;
+    padding-right: 32px;
+}
+
+head, item {
+    display: table-row;
+}
+title, item {
+    padding-right: 45px;
+}
+
+name, price {
+    display: table-cell;
+    padding: 5px;
+    border: 1px solid black;
+}

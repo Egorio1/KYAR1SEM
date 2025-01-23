@@ -1,0 +1,29 @@
+th, td {
+    border: 1px black solid;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:magenta;
+    font-family: Monotype Corsiva;
+}
+
+.punkt1 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+.punkt2 {
+    color:yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+
+.punkt3 {
+    color:green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22pt;
+}
+table td {
+    color:blue;
+}

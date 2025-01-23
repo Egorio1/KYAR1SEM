@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+        <h2>Данные студента</h2>
+
+        <p><label>Имя студента <input id="name" placeholder="обязательно заполнить"></label> </p>
+
+        <p><label>Отчество студента <input id="fathname" placeholder="обязательно заполнить"></label> </p>
+
+       <p> <label>Фамилия студента<input id="surname" placeholder="обязательно заполнить"></label> </p>
+
+       <p> <label>Адрес почты<input id="mail"></label> </p>
+
+        <p> <label>Контактный номер<input id="tel"></label> </p>
+
+        <p>
+            <span for="mf" class="label">Пол:</span> 
+            <label>Мужской<input type="checkbox"></label>  
+            <label>Женский<input type="checkbox"></label>
+        </p>
+        
+        <div>
+            <label>Какую социальную сеть вы используете?</label>
+            <input id="vk" type="checkbox">
+            <label for="vk">VK</label>
+            <input id="fb" type="checkbox">
+            <label for="fb">Facebook</label>
+            <input id="inst" type="checkbox">
+            <label for="inst">Instagram</label>
+        </div>
+        <label>
+            Ваш факультет
+            <select id="fac">
+                <option>ФИТ</option>
+                <option>ХТиТ</option>
+                <option>ТОВ</option>
+                <option>ЛИД</option>
+            </select>
+        </label>
+        <label>
+            Ваша группа
+            <select id="group">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            </select>
+        </label>
+        <label>
+            Ваш курс
+            <select id="course">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+        </label>
+        <button id="submit" type="button">Отправить</button>
+    </form>
+    <footer id="footer">
+
+    </footer>
+    <script src="form.js"></script>
+</body>
+</html>

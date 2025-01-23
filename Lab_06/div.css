@@ -1,0 +1,30 @@
+.firstsym{ 
+ 
+    background-image: linear-gradient(to top,red,blue); 
+}    
+.secondsym{ 
+    background-image: repeating-linear-gradient( 
+    45deg,  
+    red,  
+    red 15px,  
+    blue 10px,  
+    blue 30px 
+    ) 
+}  
+.thirdsym{ 
+    background-image: radial-gradient(circle,yellow,green); 
+} 
+.foursym{ 
+    background-image: repeating-radial-gradient(green 0px 10px, yellow 10px 20px); 
+    } 
+.fivesym{ 
+        background-image: radial-gradient( yellow 15% , green 50%, transparent ),linear-gradient( blue, purple 100%, transparent);
+} 
+div{ 
+    border:3px solid black; 
+    width: 200px; 
+    height:200px; 
+    display: inline-block; 
+    margin: 10px; 
+    
+}

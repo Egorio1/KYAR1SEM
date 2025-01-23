@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="zad2.xsl"?>
+<students>
+
+    <student>
+        <surname>Бакуменко</surname>
+        <opi>9</opi>
+        <kyar>3</kyar>
+        <oaip>4</oaip>
+    </student>
+
+    <student>
+        <surname>Волчек</surname>
+        <opi>4</opi>
+        <kyar>3</kyar>
+        <oaip>6</oaip>
+    </student>
+
+    <student>
+        <surname>Дольников</surname>
+        <opi>10</opi>
+        <kyar>4</kyar>
+        <oaip>6</oaip>
+    </student>
+
+    <student>
+        <surname>Евчук</surname>
+        <opi>8</opi>
+        <kyar>7</kyar>
+        <oaip>7</oaip>
+    </student>
+
+    <student>
+        <surname>Езерский</surname>
+        <opi>10</opi>
+        <kyar>3</kyar>
+        <oaip>8</oaip>
+    </student>
+
+    <student>
+        <surname>Ермолинский</surname>
+        <opi>9</opi>
+        <kyar>4</kyar>
+        <oaip>4</oaip>
+    </student>
+
+    <student>
+        <surname>Загнетова</surname>
+        <opi>4</opi>
+        <kyar>3</kyar>
+        <oaip>8</oaip>
+    </student>
+
+    <student>
+        <surname>Кириленко</surname>
+        <opi>8</opi>
+        <kyar>4</kyar>
+        <oaip>7</oaip>
+    </student>
+
+    <student>
+        <surname>Кислов</surname>
+        <opi>4</opi>
+        <kyar>2</kyar>
+        <oaip>6</oaip>
+    </student>
+
+        <student>
+        <surname>Красильников</surname>
+        <opi>4</opi>
+        <kyar>3</kyar>
+        <oaip>4</oaip>
+    </student>
+
+        <student>
+        <surname>Лавринович</surname>
+        <opi>6</opi>
+        <kyar>2</kyar>
+        <oaip>7</oaip>
+    </student>
+
+        <student>
+        <surname>Макаревич</surname>
+        <opi>10</opi>
+        <kyar>4</kyar>
+        <oaip>8</oaip>
+    </student>
+
+        <student>
+        <surname>Мышковец</surname>
+        <opi>10</opi>
+        <kyar>8</kyar>
+        <oaip>9</oaip>
+    </student>
+
+        <student>
+        <surname>Тымощук</surname>
+        <opi>6</opi>
+        <kyar>3</kyar>
+        <oaip>5</oaip>
+    </student>
+
+        <student>
+        <surname>Щерба</surname>
+        <opi>9</opi>
+        <kyar>2</kyar>
+        <oaip>6</oaip>
+    </student>
+</students>

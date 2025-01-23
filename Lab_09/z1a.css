@@ -1,0 +1,24 @@
+.container
+{
+    display: grid;
+    grid-template-columns: 90px 900px 900px;
+    height: 900px;
+}
+.cont1
+{
+    font-size: 40px;
+    padding-left: 10px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-align: center;
+}
+.cont2, .cont3
+{
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+.container div{
+    border: solid black;
+    margin: 5px;
+}

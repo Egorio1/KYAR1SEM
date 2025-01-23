@@ -1,0 +1,41 @@
+body {
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 10%;
+    background-attachment: scroll;
+}
+
+table, td, th {
+    border: solid 1px;
+    border-spacing: 0px;
+}
+li {
+    list-style: none;
+    background-image: url(sp.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding-left: 14px;
+}
+section {
+    width: auto;
+    margin-top: 40px; 
+}
+section p {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    text-indent: 15px;
+}
+#img1 {
+    float: left;
+    margin-right: 10px;
+}
+#img2 {
+    float: right;
+    height: 160px;
+    width: 210px;
+}
+img {
+    width: 200px;
+    height: 200px;
+}

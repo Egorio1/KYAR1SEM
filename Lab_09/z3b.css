@@ -1,0 +1,86 @@
+.container
+{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 100px 1200px;
+    grid-template-rows: 100px 670px 150px;
+    grid-template-areas:
+    "header header header"
+    "nav article aside"
+    "footer footer footer"
+    ;
+}
+nav
+{
+    grid-area: nav;
+    text-align: center;
+}
+header
+{
+    grid-area: header;
+}
+article
+{
+    grid-area: article;
+    font-size: 20px;
+}
+aside
+{
+    grid-area: aside;
+}
+footer
+{
+    grid-area: footer;
+}
+.cont 
+{
+    border: 1px solid white;
+    background-color: cadetblue;
+    padding: 10px;
+}
+a
+{
+    display: block;
+    color: black;
+    font-size: 25px;
+    padding-top: 50px;
+    text-align: center;
+}
+.cont1
+{
+    border: 1px solid white;
+    background-color: cadetblue;
+    font-size: 40px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.cont3
+{
+    border: 1px solid white;
+    background-color: cadetblue;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+}
+nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.nav 
+{
+    font-size: 40px;
+}
+.navig
+{
+    display: none;
+    position: absolute;
+}
+nav li:hover .navig
+{
+    display: block;
+    left: 20px;
+}

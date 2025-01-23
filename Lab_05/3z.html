@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="z3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+</head>
+<body>
+    <form>
+        <h3>Регистрация постоянного клиента</h3>
+
+    <p>
+    <label for="surname" class="label">Фамилия:</label> 
+    <input type="text" class="inputs" name="surname"> 
+    </p>
+    <p>
+    <label for="name" class="label">Имя:</label> 
+    <input type="text" class="inputs" name="name">
+    </p> 
+    <p>
+   <label for="patronymic" class="label">Отчество: </label>
+   <input type="text" class="inputs" name="patronymic">
+   </p>  
+   <p>
+   <label for="age" class="label">Ваш возраст:</label>
+   <input type="text" class="inputs" name="age">
+   </p>
+   <p>
+   <span for="mf" class="label">Пол:</span> 
+   <label>Мужской<input type="checkbox"></label>  
+   <label>Женский<input type="checkbox"></label>
+   </p>
+   <p>
+   <label for="Email" class="label">Email: </label>  
+   <input type="text" class="email" name="Email">
+   </p>
+   <p>
+   <label for="country" class="label" >Страна проживания: </label> 
+   <input type="text" class="inputs" name="country">
+   </p>
+   <p>
+   <label for="info" class="label">Откуда вы узнали о нас: </label>
+   <select>
+    <option>Выберите вариант</option> 
+    <option>Интернет</option>
+    <option>Газета</option>
+    <option>Телевидение </option>
+    <option>Моего варианта нету в списке</option>
+    </select>
+   </p>
+   <p>
+   <label for="data" class="label">Дата заполнения</label>
+   <input type="date" name="data" class="data">
+   </p>
+   <button id="registr" type="submit"> Регистрация </button>
+   <button id="cancel" type="reset">Отмена</button> 
+</form>
+</body>
+</html>

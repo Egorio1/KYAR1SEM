@@ -1,0 +1,405 @@
+img
+{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+.scale:hover
+{
+    transform: scale(0.5);
+}
+.rotate:hover
+{
+    transform: rotate(45deg);
+}
+.translate:hover
+{
+    transform: translate(50px);
+}
+.skew:hover
+{
+    transform: skew(-20deg);
+}
+button
+{
+    width: 100px;
+    margin: 10px;
+    height: 30px;
+}
+.button1:hover
+{
+    color: white;
+    background-color: black;
+}
+.button2:hover
+{
+    background-color: white;
+    border: 4px solid red; outline: 4px solid yellow;
+}
+.button3:hover
+{
+   background-color: white;
+   border-top: 5px solid green;
+   border-bottom: 5px solid green;
+   border-right: 0px;
+   border-left: 0px;
+}
+.button4:hover
+{
+   background-color: white;
+   border-top: 0px;
+   border-bottom: 0px;
+   border-right: 4px solid blue;
+   border-left: 4px solid blue;
+}
+.button5:hover
+{ 
+    font-weight: bold;
+    background-image: radial-gradient(yellow, pink, purple, cyan, transparent); border: 0px;
+}
+.task3
+{
+    display: inline;
+}
+.n1
+{
+    transform-style: preserve-3d;
+    transform: perspective(100px) rotateX(60deg);
+}
+.n2
+{
+    transform-style: preserve-3d;
+    transform: perspective(100px) rotateY(60deg);
+}
+.n3
+{
+    transform-style: preserve-3d;
+    transform: perspective(100px) rotateX(-60deg);
+}
+.n4
+{
+    transform-style: preserve-3d;
+    transform: perspective(100px) rotateY(-60deg);
+}
+@keyframes ANIM1{
+    0%{
+        left: 0;
+    }
+    50%{
+        transform-style: preserve-3d;
+        transform: rotateY(0deg);
+        left: 0;
+    }
+    100%{
+        transform-style: preserve-3d;
+        transform: rotateY(0deg);
+    }
+}
+.anim1{
+    display: inline-block;
+    animation: ANIM1 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    transform-style: preserve-3d;
+    transform: perspective(300px) rotateY(60deg);
+    position: relative;
+}
+@keyframes ANIM2{
+    0%{
+        margin-left: -120px;
+        left: 0;
+    }
+    50%{
+        transform-style: preserve-3d;
+        transform: rotateY(0deg);
+        left: 0;
+    }
+    100%{
+        transform-style: preserve-3d;
+        transform: rotateY(0deg);
+        filter: blur(10px);
+    }
+}
+.anim2{
+    display: inline-block;
+    animation: ANIM2 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    transform-style: preserve-3d;
+    transform: perspective(300px) rotateY(60deg);
+    position: relative;
+}
+@keyframes ANIM3{
+    0%{
+        margin-left: -120px;
+        left: 0;
+    }
+    50%{
+        transform-style: preserve-3d;
+        transform: rotateY(0deg);
+        left: 0;
+    }
+    100%{
+        transform-style: preserve-3d;
+        transform: rotateY(0deg);filter: grayscale(1);
+    }
+}
+.anim3{
+    display: inline-block;
+    animation: thirdANIM 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    transform-style: preserve-3d;
+    transform: perspective(300px) rotateY(60deg);
+    position: relative;
+}
+@keyframes ANIM4{
+    0%{
+        margin-left: -120px;
+        left: 0;
+    }
+    50%{
+        transform-style: preserve-3d;
+        transform: rotateY(0deg);
+        left: 0;
+    }
+    100%{
+        transform-style: preserve-3d;
+        transform: rotateY(0deg);
+        filter: invert(1);
+    }
+}
+.anim4{
+    display: inline-block;
+    animation: ANIM4 4s ;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    transform-style: preserve-3d;
+    transform: perspective(300px) rotateY(60deg);
+    position: relative;
+}
+.animation
+{
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 700px 500px;
+    border: 15x solid green;
+    height: 500px;
+    width: 700px;
+}
+@keyframes animation 
+{
+    0%
+    {
+        background-image: url(Photo/загружено.jpg);
+    }
+    25%
+    {
+        background-image: url(Photo/les2.jpg);
+    } 
+    50%
+    {
+        background-image: url(Photo/les3.jpg);
+    }   
+    75%
+    {
+        background-image: url(Photo/les4.jpg);
+    }
+    100%
+    {
+        background-image: url(Photo/les5.jpg);
+    }
+}
+.dvi1
+{
+    animation-name: dvi1;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+}
+@keyframes dvi1
+{
+    0%
+    {
+        transform: translateX(0px);
+    }
+    100%
+    {
+        transform: translateX(200px);
+    }
+}
+.dvi2
+{
+    animation-name: dvi2;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+}
+@keyframes dvi2
+{
+    0%
+    {
+        transform: translateX(0);
+        border-radius: 0;
+    }
+    50%
+    {
+        transform: translateX(500px);
+        border-radius: 50%;
+    }
+    100%
+    {
+        transform: translateX(0) ;
+        border-radius: 0;
+    }
+}
+.dvi3
+{
+    animation-name: dvi3;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+}
+@keyframes dvi3
+{
+    0%
+    {
+        transform: translateX(-150px);
+    }
+    100%
+    {
+        transform: translateX(1500px);
+    }
+}
+.dvi4
+{
+    animation-name: dvi4;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+@keyframes dvi4
+{
+    0%
+    {
+        transform: translateY(0);
+    }
+    50%
+    {
+        transform: translateY(50px);
+    }
+    100%
+    {
+        transform: translateY(0px);
+    }
+}
+.dvi5
+{
+    animation-name: dvi5;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+}
+@keyframes dvi5
+{
+    0%
+    {
+        left: 0px;
+        top: 0px;
+    }
+    25%
+    {
+        left: 200px;
+        top: 0px;
+    }
+    50%
+    {
+        left: 200px;
+        top: 200px;
+    }
+    75%
+    {
+        left: 0px;
+        top: 200px;
+    }
+    100%
+    {
+       left: 0px;
+       top: 0px;
+    }
+}
+.block
+{
+    height: 300px;
+    width: 300px;
+    border: 5px solid green;
+    transition: all 5s linear;
+}
+
+.block:hover
+{
+    color: blue; 
+    transition: color 5s linear;
+    }
+h2
+{
+    text-align: center;
+    animation-name: zad;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+}
+@keyframes zad
+{
+    0%
+    {
+        opacity: 0%;
+    }
+    50%
+    {
+        opacity: 80%;
+    }
+    100%
+    {
+        opacity: 0%;
+    }
+}
+.zad
+{
+    margin-top: 200px;
+}
+.dvix
+{
+    margin-top: 600px;
+}
+.nav li {
+    display: inline;
+    border:2px solid green;
+    background-color: yellow;
+    margin-right: -4px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    color: green;
+}
+li {
+    border: solid, 1px, green;
+    background-color: yellow;
+    color: green;
+    display: block;
+
+}
+li a { text-decoration: none;
+color: green;
+}
+    

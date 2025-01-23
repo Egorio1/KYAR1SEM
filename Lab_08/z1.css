@@ -1,0 +1,33 @@
+ul.nav {list-style-type: none;}
+ul.nav a {display:block;}
+.first:link {
+    color: red;
+text-decoration: none; 
+}
+.second:visited{
+    color: #8B00;
+}
+.third:hover {
+    color: green;
+}
+.fourth:active {
+    color: rgb(184, 134, 11);
+}
+aside{
+    float: right;
+    height: 300px;
+    width: 300px;
+}
+p{
+    width: auto;
+    margin-top: 40px; 
+}
+section {
+    width: auto;
+    margin-top: 40px; 
+}
+section p {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    text-indent: 15px;
+}

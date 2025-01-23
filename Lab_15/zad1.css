@@ -1,0 +1,10 @@
+figure {
+    display: inline-block;
+    width: 29%;
+    padding: 0;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+}

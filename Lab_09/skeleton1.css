@@ -1,0 +1,93 @@
+
+.container
+{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 0;
+    margin-left: 270px;
+}
+.colums
+{
+    margin-right: 270px;
+    margin-top: 30px;
+}
+.colums1
+{
+    margin-top: 50px;
+}
+li
+{
+    list-style-type: none;
+    float: left;
+    border: 2px solid black;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: gray;
+    border-right: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+a:hover
+{
+    color: white;
+}
+.gg1
+{
+    border: 2px solid black;
+    width: 300px;
+    height: 75px;
+}
+.row {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    margin-left: 220px;
+}
+.grid
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 50px;
+    background-color: firebrick;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.list
+{
+    list-style-type: none;
+    float: left;
+    border: 2px solid black;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: gray;
+}
+.rog {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.gric
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+.colums1 ul li:hover
+{
+    background-color: gray;
+}

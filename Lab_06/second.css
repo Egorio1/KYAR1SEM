@@ -1,0 +1,39 @@
+figure {
+    border: 0px solid;
+    border-radius: 25px;
+    width: 20%;
+    height: 20%;
+     background-image: radial-gradient(circle,white 70%,darkgray);
+     display: inline-block;
+}
+figcaption {
+    
+    font-size: 15pt;
+    margin-top: 5px;
+    color: #FB607F;
+}
+.gal {
+    
+    
+    text-align: center;
+}
+img {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+#fly {
+    margin-top: 50px;
+}
+#edge {
+    margin-top: 35px;
+}
+#forza {
+    margin-top: 10px;
+}
+h1 {
+    text-align: center;
+}
+body {
+    background-color:darkgray ;
+}

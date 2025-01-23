@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="zad1.css"?>
+<!DOCTYPE items[
+<!ELEMENT head (title, byn)>
+<!ELEMENT item (name,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT byn (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ENTITY b "BYN">
+]>
+<items>
+<head>
+        <title>Название товара</title>
+        <byn>Цена</byn>
+    </head>
+    <item>
+        <name>Мяч</name>
+        <price>100 &b;</price>
+    </item>
+
+    <item>
+        <name>Форма</name>
+        <price>120 &b;</price>
+    </item>
+
+    <item>
+        <name>Шарф</name>
+        <price>40 &b;</price>
+    </item>
+
+    <item>
+        <name>Тренировачная Форма</name>
+        <price>140 &b;</price>
+    </item>
+
+    <item>
+        <name>Баннер</name>
+        <price>90 &b;</price>
+    </item>
+</items>  

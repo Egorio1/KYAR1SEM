@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="zad1.xsl"?>
+<items>
+    <head>
+        <title>Название товара</title>
+        <byn>Цена</byn>
+    </head>
+    <item>
+        <name>Мяч</name>
+        <price>100</price>
+    </item>
+    <item>
+        <name>Форма</name>
+        <price>120</price>
+    </item>
+
+    <item>
+        <name>Шарф</name>
+        <price>40</price>
+    </item>
+
+    <item>
+        <name>Тренировачная Форма</name>
+        <price>140</price>
+    </item>
+
+    <item>
+        <name>Баннер</name>
+        <price>90</price>
+    </item>
+</items>  

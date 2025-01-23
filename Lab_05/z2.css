@@ -1,0 +1,34 @@
+table {
+    font-weight: bold;
+    width: 200px;
+    font-size: 18px;
+    empty-cells: hide;
+    border-spacing: 0px;
+    text-align: center;
+}
+td,th {
+    padding: 10px;
+    border: 2px ridge rgb(45, 45, 45);
+    color: white;
+}
+thead th{
+    background-color: #00bf;
+}
+td:first-child {
+    color: black;
+    background-color: white;
+}
+#secondcol {
+    background-color: skyblue;
+}
+#thirdcol {
+    background-color: purple;
+}
+#fourthcol {
+    background-color: green;
+}
+caption{
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
